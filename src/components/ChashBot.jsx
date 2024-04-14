@@ -42,9 +42,11 @@ function ChashBot() {
 
   return (
     <React.Fragment>
+       <div className='container'>ChassBoard-UI</div>
       <div className='outer'>
         {/* {row} */}
         {boxes}
+       
       </div>
     </React.Fragment>
   )
